@@ -13,18 +13,14 @@ function LoginPage() {
                 <div id="main-content">
                     <div id="content-name">Login</div>
                     <form method="post">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Email</td>
-                                    <td><input type="email" name="email" required /></td>
-                                </tr>
-                                <tr>
-                                    <td>Password</td>
-                                    <td><input type="password" name="password" required /></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div className="input-area">
+                            <div className="element label"><label for="email_field">Email</label></div>
+                            <div className="element"><input type="email" name="email" id="email_field" required></input></div>
+                        </div>
+                        <div className="input-area">
+                            <div className="element label"><label for="email_field">Password</label></div>
+                            <div className="element"><input type="password" name="password" id="password_field" required></input></div>
+                        </div>
                         <div id="button-area">
                             <span><button className="login" type="submit">Sign Up</button></span>
                             <span><button className="login" type="submit">Log In</button></span>

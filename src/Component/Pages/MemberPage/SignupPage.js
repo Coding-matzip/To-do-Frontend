@@ -12,22 +12,18 @@ function SignupPage() {
                 <div id="main-content">
                     <div id="content-name">Sign Up</div>
                     <form method="post">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Email</td>
-                                    <td><input type="email" name="email" required /></td>
-                                </tr>
-                                <tr>
-                                    <td>Password</td>
-                                    <td><input type="password" name="password" required /></td>
-                                </tr>
-                                <tr>
-                                    <td>Confirm Password</td>
-                                    <td><input type="password" name="password" required /></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div className="input-area">
+                            <div className="element label"><label for="email_field">Email</label></div>
+                            <div className="element"><input type="email" name="email" id="email_field" required></input></div>
+                        </div>
+                        <div className="input-area">
+                            <div className="element label"><label for="password_field">Password</label></div>
+                            <div className="element"><input type="password" name="password" id="password_field" required></input></div>
+                        </div>
+                        <div className="input-area">
+                            <div className="element label"><label for="confirm_password_field">Confirm Password</label></div>
+                            <div className="element"><input type="password" name="confirmPassword" id="confirm_password_field" required></input></div>
+                        </div>
                         <div id="button-area">
                             <span><button className="signup" type="submit">Register</button></span>
                         </div>
