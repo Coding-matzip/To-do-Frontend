@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { siteTitle } from '../../Config';
+import './MemberPage.css';
 
 function SignupPage() {
     useEffect(() => {
