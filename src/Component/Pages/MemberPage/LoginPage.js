@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { siteTitle } from '../../Config';
 import './MemberPage.css';
+import {Link} from 'react-router-dom';
 
 function LoginPage() {
     useEffect(() => {
@@ -22,7 +23,7 @@ function LoginPage() {
                             <div className="element"><input type="password" name="password" id="password_field" required></input></div>
                         </div>
                         <div id="button-area">
-                            <span><button className="login" type="submit">Sign Up</button></span>
+                            <span><Link to="/signup"><button className="login" type="button">Sign Up</button></Link></span>
                             <span><button className="login" type="submit">Log In</button></span>
                         </div>
                     </form>
