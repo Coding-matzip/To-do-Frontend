@@ -2,9 +2,6 @@ import React, { useEffect, useState, useCallback, useRef } from "react";
 import TodoMain from "./components/TodoMain";
 import TodoList from "./components/TodoList";
 import TodoInsert from "./components/TodoInsert";
-import logoutIcon from "./image/icon-logout.svg";
-import homeIcon from "./image/icon-main.svg";
-import scheduleIcon from "./image/icon-check-last-schedule.svg";
 import TodoPage from "./components/TodoPage";
 import { siteTitle } from "../../Config";
 
