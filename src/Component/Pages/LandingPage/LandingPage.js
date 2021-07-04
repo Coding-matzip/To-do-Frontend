@@ -71,19 +71,6 @@ function LandingPage() {
         <TodoList todos={todos} onRemove={onRemove} onToggle={onToggle} />
         <TodoPage />
       </TodoMain>
-      <nav>
-        <ul id="menu">
-          <li key="logout">
-            <img src={logoutIcon} alt="logout" />
-          </li>
-          <li className="active" key="home">
-            <img src={homeIcon} alt="home" />
-          </li>
-          <li key="schedule">
-            <img src={scheduleIcon} alt="schedule" />
-          </li>
-        </ul>
-      </nav>
     </div>
   );
 }
