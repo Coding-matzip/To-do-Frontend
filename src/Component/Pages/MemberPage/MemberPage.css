@@ -8,8 +8,10 @@ button {margin: 3% 1%; background-color: #ffffff; border-radius: 16px; height: 6
 button:active {background-color: #5F2EEA; color:#ffffff;}
 button.login {width: 150px;}
 button.signup {width: 325px;}
-button#kakao-login-btn{width: 183px; height: 45px; border-radius: 0px; border-color: transparent;}
-button#kakao-login-btn:active{background-color: transparent; color: #ffffff; box-shadow: 5px 5px grey;}
+button#kakao-login-btn{width: 183px; height: 45px; border-color: transparent;}
+button#kakao-login-btn:active{background-color: transparent; color: #ffffff;}
+#kakao-login-btn {box-shadow: 5px 5px grey; border-radius: 10px;}
+#kakao-login-btn:active {box-shadow: 0px 0px grey;}
 .element {flex-direction: column;}
 .label {text-align: left};
 .input-area {margin-top: 30px;}
