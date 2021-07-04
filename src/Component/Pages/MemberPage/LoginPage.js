@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { siteTitle } from '../../Config';
 import './MemberPage.css';
 import {Link} from 'react-router-dom';
+import kakaoLoginButton from '../../../image/kakao_login_medium_narrow.png';
 
 function LoginPage() {
     useEffect(() => {
@@ -27,6 +28,9 @@ function LoginPage() {
                             <span><button className="login" type="submit">Log In</button></span>
                         </div>
                     </form>
+                    <hr></hr>
+                    <div id="social-login-name">Social Login</div>
+                    <button type="button" id="kakao-login-btn"><img src={kakaoLoginButton} alt="Kakao Social Login Button"></img></button>
                 </div>
             </section>
         </div>

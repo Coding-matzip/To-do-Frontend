@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { siteTitle } from '../../Config';
 import './MemberPage.css';
+import kakaoLoginButton from '../../../image/kakao_login_medium_narrow.png';
 
 function SignupPage() {
     useEffect(() => {
@@ -29,6 +30,9 @@ function SignupPage() {
                             <span><button className="signup" type="submit">Register</button></span>
                         </div>
                     </form>
+                    <hr></hr>
+                    <div id="social-login-name">Social Login</div>
+                    <button type="button" id="kakao-login-btn"><img src={kakaoLoginButton} alt="Kakao Social Login Button"></img></button>
                 </div>
             </section>
         </div>
