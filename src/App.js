@@ -32,7 +32,7 @@ function App() {
       </div>
       <nav>
         <ul id="menu">
-          <li onClick={buttonActive} key="logout"><Link to="#"><img src={logoutIcon} alt="logout" /></Link></li>
+          <li onClick={buttonActive} key="logout"><Link to="/login"><img src={logoutIcon} alt="logout" /></Link></li>
           <li className="active" onClick={buttonActive} key="home"><Link to="/"><img src={homeIcon} alt="home" /></Link></li>
           <li onClick={buttonActive} key="schedule"><Link to="/schedule"><img src={scheduleIcon} alt="schedule" /></Link></li>
         </ul>
