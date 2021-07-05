@@ -1,0 +1,41 @@
+.TodoPage {
+  font-size: 30px;
+  color: #5f2eea;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 3%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+}
+
+.TodoPage > button {
+  outline: 0;
+  border: 0;
+  background-color: white;
+}
+
+.Previous,
+.Next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ecedf4;
+}
+
+.Next {
+  color: #5f2eea;
+}
+
+.TodoPage_font {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 0 15px;
+}
